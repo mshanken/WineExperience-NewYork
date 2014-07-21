@@ -138,3 +138,48 @@ background-color: #9aae81;
   font-size: 17px;
   padding-bottom: 40px;
 }
+/*
+.bio{
+	border-bottom: dotted 5px #8d7ca3;
+}
+*/
+.headline{
+	/* float: left; */
+	margin-bottom: 0;
+	text-transform: uppercase; 
+}
+#description{
+	margin-left: 121px;
+}
+.mini_des{
+	margin-right: 5px;
+}
+.destiny{
+	margin-left: 93px;
+}
+#middle_image{
+	margin-right: 0;
+	margin-left: 0;
+}
+#lastbio{
+	padding-bottom: 45px;
+}
+.list{
+	font-size: 16px;
+	font-family: Arial;
+}
+#bruno{
+	padding-bottom: 30px;
+}
+#louis{
+	padding-bottom: 20px;
+}
+.top_wines{
+	padding-left: 10px;
+}
+#catena{
+	margin-bottom: 45px;
+}
+#jean{
+	margin-bottom: 68px;
+}
