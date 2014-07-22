@@ -83,6 +83,12 @@ background-color: #9aae81;
 #october{
   margin-top: 25px;
 }
+.morning{
+  font-size: 14px;
+  font-weight: bold;
+  color: #b98223;
+  margin: 0px 7px;
+}
 .e_ticket{
   margin-left: 55px;
 }
@@ -100,8 +106,19 @@ background-color: #9aae81;
 .date{
   font-size: 14px;
   font-weight: bold;
-  color: #b98223;
+  color: #6e8055;
   margin: 0px 7px;
+  text-decoration: underline;
+}
+.morning{
+	font-size: 17px;
+	font-family: Arial;
+	color:#32004b;
+	margin:20px 7px;
+}
+.time_list{
+	padding-left: 22px;
+	margin:0;
 }
 .time{
   font-weight: bold;
@@ -174,6 +191,9 @@ background-color: #9aae81;
 #louis{
 	padding-bottom: 20px;
 }
+#olivier{
+	margin-bottom: 30px;
+}
 .top_wines{
 	padding-left: 10px;
 }
@@ -182,4 +202,44 @@ background-color: #9aae81;
 }
 #jean{
 	margin-bottom: 68px;
+}
+#hewitt{
+	margin-bottom: 38px;
+}
+#giuseppe{
+	margin-bottom: 12px;
+}
+#beaucastel{
+	margin-bottom: 29px;
+}
+.mini_bio{
+	margin-left: 90px;
+}
+.afternoon_list{
+	padding-left: 8px;
+	margin: 0;
+}
+.head{
+	font-size: 75px;
+	text-align: center;
+	font-family: Times New Roman;
+	line-height: 1.0em;
+	color: #32004b;
+	margin-bottom: 20px;
+}
+#cornell{
+	margin-top:15px;
+}
+.benefits{
+	font-size: 17px;
+	font-weight: bold;
+	color: #6e8055;
+	margin: 10px 0px;
+	text-decoration: underline;
+}
+.foundation_list{
+	margin-top:10px;
+}
+.last_text{
+	text-align: center;
 }
