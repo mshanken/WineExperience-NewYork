@@ -243,3 +243,8 @@ background-color: #9aae81;
 .last_text{
 	text-align: center;
 }
+.vertical-border{
+	background-image: url('../NYWE14-ProgramPage_v4-middleborder.jpg');
+	background-position-x: right;
+	background-repeat: no-repeat;
+}
