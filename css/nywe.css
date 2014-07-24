@@ -67,7 +67,7 @@ background-color: #9aae81;
   text-transform: uppercase;
 }
 .foot_project{
-  font-size: 13px;
+  font-size: 11px;
   margin-top: 5px;
   margin-left: 8px;
   font-style: italic;
@@ -104,7 +104,7 @@ background-color: #9aae81;
   margin-left: 7px;
 }
 .date{
-  font-size: 14px;
+  font-size: 17px;
   font-weight: bold;
   color: #6e8055;
   margin: 0px 7px;
@@ -126,6 +126,7 @@ background-color: #9aae81;
   margin: 0px 7px;
 }
 .times{
+  font-size: 11px;
   font-weight: lighter;
   margin-left: 21px;
   margin-top: 20px;
@@ -245,6 +246,11 @@ background-color: #9aae81;
 }
 .vertical-border{
 	background-image: url('../NYWE14-ProgramPage_v4-middleborder.jpg');
-	background-position-x: right;
+	background-position: right;
 	background-repeat: no-repeat;
+}
+@media only screen and (max-width: 768px) and (min-width: 479px)
+    .vertical-border{
+        background-image:none;
+    }
 }
