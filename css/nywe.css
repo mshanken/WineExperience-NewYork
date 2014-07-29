@@ -170,10 +170,13 @@ background-color: #9aae81;
 	margin-left: 121px;
 }
 .mini_des{
-	margin-right: 5px;
+	margin-bottom: 30px;
 }
 .destiny{
 	margin-left: 93px;
+}
+#second-list{
+	margin-left: 70px;
 }
 #middle_image{
 	margin-right: 0;
@@ -187,34 +190,36 @@ background-color: #9aae81;
 	font-family: Arial;
 }
 #bruno{
-	padding-bottom: 30px;
+	padding-bottom: 25px;
 }
 #louis{
 	padding-bottom: 20px;
 }
 #olivier{
-	margin-bottom: 30px;
+	margin-bottom: 50px;
 }
 .top_wines{
 	padding-left: 10px;
 }
 #catena{
-	margin-bottom: 45px;
+	margin-bottom: 60px;
+}
+#prats{
+	padding-bottom: 37px;
 }
 #jean{
-	margin-bottom: 68px;
-}
-#hewitt{
-	margin-bottom: 38px;
+	margin-bottom: 82px;
 }
 #giuseppe{
 	margin-bottom: 12px;
 }
-#beaucastel{
-	margin-bottom: 29px;
+
+#helen{
+	margin-bottom: 32px;
 }
 .mini_bio{
-	margin-left: 90px;
+	margin-left: 109px;
+	font-size: 15px;
 }
 .afternoon_list{
 	padding-left: 8px;
@@ -244,13 +249,23 @@ background-color: #9aae81;
 .last_text{
 	text-align: center;
 }
+#image-space{
+	margin-bottom:20px;
+}
 .vertical-border{
 	background-image: url('../NYWE14-ProgramPage_v4-middleborder.jpg');
 	background-position: right;
-	background-repeat: no-repeat;
+	background-repeat: repeat-y;
 }
-@media only screen and (max-width: 768px) and (min-width: 479px)
+@media only screen and (max-width: 767px)
     .vertical-border{
         background-image:none;
     }
 }
+@media (max-width: 480px) .head{ 
+	 	font-size: 25px;
+		text-align: center;
+		font-family: Times New Roman;
+		line-height: 1.0em;
+		color: #32004b;
+ }
