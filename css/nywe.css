@@ -185,6 +185,7 @@ background-color: #9aae81;
 #lastbio{
 	padding-bottom: 45px;
 }
+
 .list{
 	font-size: 16px;
 	font-family: Arial;
@@ -200,6 +201,10 @@ background-color: #9aae81;
 }
 .top_wines{
 	padding-left: 10px;
+}
+#sir{
+	margin-bottom: 30px;
+	margin-left: 10px;
 }
 #catena{
 	margin-bottom: 60px;
@@ -271,3 +276,28 @@ background-color: #9aae81;
 		color: #32004b;
  	}
  }
+ @media only screen and (max-width: 960px){
+    .vertical-border{
+        background-image:none;
+    }
+}
+@media only screen and (max-width: 960px){
+    #helen{
+        margin-bottom: 45px;
+    }
+}
+@media only screen and (max-width: 960px){
+    #aurelio{
+        margin-bottom: 70px;
+    }
+}
+@media only screen and (max-width: 960px){
+    #fred{
+        margin-bottom: 50px;
+    }
+}
+@media only screen and (max-width: 960px){
+    #tor{
+        margin-bottom: 50px;
+    }
+}
