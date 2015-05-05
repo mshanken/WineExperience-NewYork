@@ -164,7 +164,11 @@ background-color: #9aae81;
 .headline{
 	/* float: left; */
 	margin-bottom: 0;
-	text-transform: uppercase; 
+	text-transform: uppercase;
+	font-size:16px;
+}
+.winelist{
+	font-size: 14px;
 }
 #description{
 	margin-left: 121px;
@@ -256,6 +260,9 @@ background-color: #9aae81;
 }
 #image-space{
 	margin-bottom:20px;
+}
+#pablo{
+	 margin-left: 120px;
 }
 .vertical-border{
 	background-image: url('https://s3.amazonaws.com/assets.mshanken.com/wso/static/promos/NYWE14-ProgramPage_v4-middleborder.jpg');
