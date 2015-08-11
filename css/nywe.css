@@ -287,24 +287,51 @@ background-color: #9aae81;
     .vertical-border{
         background-image:none;
     }
-}
-@media only screen and (max-width: 960px){
     #helen{
         margin-bottom: 45px;
     }
-}
-@media only screen and (max-width: 960px){
     #aurelio{
         margin-bottom: 70px;
     }
-}
-@media only screen and (max-width: 960px){
     #fred{
         margin-bottom: 50px;
     }
-}
-@media only screen and (max-width: 960px){
     #tor{
         margin-bottom: 50px;
     }
+    @media only screen and (max-width: 414px){
+    #nav{
+        margin-top: 10px;
+    	margin-bottom: 20px;
+    }
+    #nav a.btn-default {
+	    color: #ffffff;
+	    padding: 8px 0;
+	    font-weight: bold;
+	    font-size: 12px;
+		active background-color:#6e8055;
+	}
+	@media only screen and (max-width: 375px){
+    #nav{
+        margin-top: 10px;
+    	margin-bottom: 20px;
+    }
+    #nav a.btn-default {
+	    color: #ffffff;
+	    padding: 8px 0;
+	    font-weight: bold;
+	    font-size: 12px;
+	}
+	@media only screen and (max-width: 320px){
+    #nav{
+        margin-top: 10px;
+    	margin-bottom: 20px;
+    }
+    #nav a.btn-default {
+	    color: #ffffff;
+	    padding: 8px 0;
+	    font-weight: bold;
+	    font-size: 12px;
+	}
+
 }
