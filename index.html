@@ -108,10 +108,10 @@
       font-size: 15px;
       margin-top: 40px;
     }
-    #fine-image{
+    .fine-image{
     	margin-right: 0px;
     }
-    #wine-image{
+    .wine-image{
     	margin-left: 0px;
     }
     .experience{
@@ -130,20 +130,18 @@
       }
       /* ----------- iPhone 4 and 4S ----------- */
 
-/* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-
-}
-
 /* Portrait */
 @media only screen 
   and (min-device-width: 320px) 
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
+  #fine-image{
+    	margin-right: 0px;
+    }
+    #wine-image{
+    	margin-left: 0px;
+    }
 }
 
 /* Landscape */
@@ -157,20 +155,18 @@
 
 /* ----------- iPhone 5 and 5S ----------- */
 
-/* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-
-}
-
 /* Portrait */
 @media only screen 
   and (min-device-width: 320px) 
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
+  	.fine-image{
+    	margin-right: 30px;
+    }
+    .wine-image{
+    	margin-left: 27px;
+    }
 }
 
 /* Landscape */
@@ -184,21 +180,18 @@
 
 /* ----------- iPhone 6 ----------- */
 
-/* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2) { 
-
-}
-
 /* Portrait */
 @media only screen 
   and (min-device-width: 375px) 
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-
+	.fine-image{
+    	margin-right: 47px;
+    }
+    .wine-image{
+    	margin-left: 65px;
+    }
 }
 
 /* Landscape */
@@ -212,21 +205,18 @@
 
 /* ----------- iPhone 6+ ----------- */
 
-/* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
-
-}
-
 /* Portrait */
 @media only screen 
   and (min-device-width: 414px) 
   and (max-device-width: 736px) 
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: portrait) { 
-
+	.fine-image{
+    	 margin-left: 75px;
+    }
+    .wine-image{
+    	margin-left: 75px;
+    }
 }
 
 /* Landscape */
@@ -260,10 +250,10 @@
           <div class="container" id="wraps">
 	    			<div class="row">
 	    				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-	    					<img src="https://s3.amazonaws.com/assets.mshanken.com/wso/static/promos/NYWE14-Page-2.jpg" class="img-responsive center-block" id="green fine-image" style="margin-right: 0px;"/>
+	    					<img src="https://s3.amazonaws.com/assets.mshanken.com/wso/static/promos/NYWE14-Page-2.jpg" class="img-responsive center-block fine-image" id="green"/>
 	    				</div>
 	    				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-	    					<img src="https://s3.amazonaws.com/assets.mshanken.com/wso/static/promos/NYWE14-Page.jpg" class="img-responsive center-block" id="green wine-image" style="margin-left: 0px;"/>
+	    					<img src="https://s3.amazonaws.com/assets.mshanken.com/wso/static/promos/NYWE14-Page.jpg" class="img-responsive center-block wine-image" id="green"/>
 	    				</div>
 	    			</div><!-- row -->
           </div><!-- contianer -->
